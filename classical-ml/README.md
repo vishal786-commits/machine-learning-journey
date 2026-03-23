@@ -2,19 +2,28 @@
 
 A collection of **classical machine learning algorithms implemented from first principles**, with a focus on mathematical intuition, clean implementations, and practical experimentation.
 
-The goal of this repository is to develop a **deep understanding of how ML algorithms actually work**, rather than relying solely on high-level libraries. Each algorithm is explored through theory, implementation, and experiments.
+This repository is designed to build a **deep, system-level understanding of machine learning**, going beyond high-level libraries to understand how models actually work internally.
 
 ---
 
 ## Approach
 
-For each algorithm, the following aspects are covered:
+Each algorithm in this repository is explored through a structured framework:
 
-- **Conceptual intuition** — understanding the geometric and statistical ideas behind the method  
-- **Mathematical formulation** — deriving the core equations and learning rules  
-- **Implementation** — building models step-by-step using Python / NumPy  
-- **Experiments** — evaluating performance on real datasets  
-- **Analysis** — interpreting results and understanding strengths and limitations
+- **Conceptual Intuition**  
+  Understanding the geometric and statistical reasoning behind the algorithm  
+
+- **Mathematical Formulation**  
+  Deriving core equations and objective functions  
+
+- **From-Scratch Implementation**  
+  Building models using Python and NumPy (no high-level ML libraries)  
+
+- **Experiments**  
+  Evaluating behavior on real datasets  
+
+- **Analysis**  
+  Interpreting results, trade-offs, and limitations  
 
 ---
 
@@ -23,33 +32,66 @@ For each algorithm, the following aspects are covered:
 - Linear Regression  
 - Logistic Regression  
 - Multiclass Logistic Regression  
-- k-Nearest Neighbors (KNN)
+- k-Nearest Neighbors (KNN)  
+- Decision Trees (Classification & Regression)
+
+---
+
+## Key Concepts Covered
+
+- Bias–Variance Tradeoff  
+- Overfitting vs Underfitting  
+- Entropy and Gini Impurity  
+- Feature Importance  
+- Handling Numerical and Categorical Data  
+- Model Interpretability  
 
 ---
 
 ## Upcoming
 
 - Support Vector Machines (SVM)  
-- Decision Trees  
 - Naive Bayes  
+- Ensemble Methods:
+  - Random Forest  
+  - Gradient Boosting  
 
 ---
 
 ## Purpose
 
-This repository is part of a broader **machine learning learning journey**, focusing on building strong fundamentals before moving into more advanced areas such as:
+This repository is part of a broader effort to become a **strong ML/AI engineer**, with emphasis on:
+
+- First-principles thinking  
+- Model interpretability  
+- Practical system design  
+
+It serves as a foundation for more advanced areas:
 
 - Deep Learning  
 - Large Language Models (LLMs)  
 - Retrieval Augmented Generation (RAG) systems  
 
-Understanding classical ML provides the **conceptual foundation for modern AI systems**.
+---
+
+## Why This Matters
+
+Modern ML frameworks abstract away complexity.
+
+This repository focuses on rebuilding that understanding:
+
+$ \text{Model = Data + Objective + Optimization} $
+
+By implementing algorithms from scratch, we develop:
+- Strong intuition  
+- Debugging ability  
+- Deeper understanding of real-world ML systems  
 
 ---
 
-
 ## Philosophy
 
-> Learn the fundamental mathematics deeply.  
-> Build models from first principles.  
-> Understand intuition before optimizing.
+> Learn the fundamentals deeply  
+> Build from first principles  
+> Understand before optimizing  
+> Simplicity leads to clarity
