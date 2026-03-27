@@ -1,97 +1,92 @@
-# Classical Machine Learning
+# Classical Machine Learning — From First Principles
 
-A collection of **classical machine learning algorithms implemented from first principles**, with a focus on mathematical intuition, clean implementations, and practical experimentation.
+> *"Modern ML frameworks abstract away complexity. This repository rebuilds it."*
 
-This repository is designed to build a **deep, system-level understanding of machine learning**, going beyond high-level libraries to understand how models actually work internally.
+A structured collection of classical ML algorithms implemented from scratch — no scikit-learn, no shortcuts. Built to develop deep, system-level intuition about how models actually work before reaching for high-level libraries.
+
+---
+
+## Why From Scratch?
+
+Every model in a framework hides the mechanics that matter most:
+
+$$\mathcal{L}(\text{model}) = f(\text{Data},\ \text{Objective},\ \text{Optimization})$$
+
+By deriving and implementing each component manually, you build:
+- **Strong intuition** — you understand *why* a model behaves the way it does
+- **Debugging ability** — you can reason about failures at the algorithmic level
+- **Real-world readiness** — deeper understanding of production ML systems
 
 ---
 
 ## Approach
 
-Each algorithm in this repository is explored through a structured framework:
+Each algorithm follows a consistent five-stage framework:
 
-- **Conceptual Intuition**  
-  Understanding the geometric and statistical reasoning behind the algorithm  
-
-- **Mathematical Formulation**  
-  Deriving core equations and objective functions  
-
-- **From-Scratch Implementation**  
-  Building models using Python and NumPy (no high-level ML libraries)  
-
-- **Experiments**  
-  Evaluating behavior on real datasets  
-
-- **Analysis**  
-  Interpreting results, trade-offs, and limitations  
+| Stage | What it covers |
+|---|---|
+| **Conceptual Intuition** | Geometric and statistical reasoning behind the algorithm |
+| **Mathematical Formulation** | Deriving core equations and objective functions |
+| **From-Scratch Implementation** | Python + NumPy only — no high-level ML libraries |
+| **Experiments** | Evaluating behaviour on real datasets |
+| **Analysis** | Interpreting results, trade-offs, and limitations |
 
 ---
 
 ## Implemented
 
-- Linear Regression  
-- Logistic Regression  
-- Multiclass Logistic Regression  
-- k-Nearest Neighbors (KNN)  
-- Decision Trees (Classification & Regression)
+- [x] Linear Regression
+- [x] Logistic Regression
+- [x] Multiclass Logistic Regression
+- [x] k-Nearest Neighbours (kNN)
+- [x] Decision Tree (Classification & Regression)
 
 ---
 
 ## Key Concepts Covered
 
-- Bias–Variance Tradeoff  
-- Overfitting vs Underfitting  
-- Entropy and Gini Impurity  
-- Feature Importance  
-- Handling Numerical and Categorical Data  
-- Model Interpretability  
+- Bias–Variance Tradeoff
+- Overfitting vs Underfitting
+- Entropy and Gini Impurity
+- Feature Importance
+- Handling Numerical / Categorical Data
+- Model Interpretability
 
 ---
 
 ## Upcoming
 
-- Support Vector Machines (SVM)  
-- Naive Bayes  
-- Ensemble Methods:
-  - Random Forest  
-  - Gradient Boosting  
+- [ ] Support Vector Machines (SVM)
+- [ ] Naive Bayes
+- [ ] Ensemble Methods
+  - [ ] Random Forest
+  - [ ] Gradient Boosting
 
 ---
 
-## Purpose
+## Broader Context
 
-This repository is part of a broader effort to become a **strong ML/AI engineer**, with emphasis on:
+This repository is one layer in a deliberately structured ML/AI engineering journey. It serves as the mathematical foundation for:
 
-- First-principles thinking  
-- Model interpretability  
-- Practical system design  
-
-It serves as a foundation for more advanced areas:
-
-- Deep Learning  
-- Large Language Models (LLMs)  
-- Retrieval Augmented Generation (RAG) systems  
-
----
-
-## Why This Matters
-
-Modern ML frameworks abstract away complexity.
-
-This repository focuses on rebuilding that understanding:
-
-$ \text{Model = Data + Objective + Optimization} $
-
-By implementing algorithms from scratch, we develop:
-- Strong intuition  
-- Debugging ability  
-- Deeper understanding of real-world ML systems  
+- **Deep Learning** — understanding gradient flow, activations, and backprop from first principles
+- **Large Language Models** — attention mechanisms, tokenisation, and transformer internals
+- **RAG Systems** — retrieval, reranking, and generation pipelines built on solid ML intuition
 
 ---
 
 ## Philosophy
 
-> Learn the fundamentals deeply  
-> Build from first principles  
-> Understand before optimizing  
-> Simplicity leads to clarity
+- Favour implementation details over API convenience  
+- Build from first principles before optimising  
+- Understand before you abstract  
+- Learn by doing — always
+
+---
+
+## Tech Stack
+
+`Python` · `NumPy` · `Jupyter Notebooks` · `Matplotlib`
+
+---
+
+*Part of the [machine-learning-journey](https://github.com/vishal786-commits) series.*
