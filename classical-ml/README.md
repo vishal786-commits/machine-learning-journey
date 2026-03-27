@@ -2,7 +2,7 @@
 
 > *"Modern ML frameworks abstract away complexity. This repository rebuilds it."*
 
-A structured collection of classical ML algorithms implemented from scratch — no scikit-learn, no shortcuts. Built to develop deep, system-level intuition about how models actually work before reaching for high-level libraries.
+A structured collection of classical ML algorithms implemented from scratch. Built to develop deep, system-level intuition about how models actually work before reaching for high-level libraries.
 
 ---
 
