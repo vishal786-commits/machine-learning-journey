@@ -112,36 +112,6 @@ partners, outstanding orders) at order time. The regression target,
 
 ---
 
-## Repository Structure
-
-```
-.
-├── Porter_Neural_Network_Regression.ipynb   # full analysis notebook
-├── README.md
-└── data/                                     # dataset (or download link)
-```
-
----
-
-## How to Run
-
-```bash
-# Clone
-git clone https://github.com/<your-username>/porter-delivery-time-nn.git
-cd porter-delivery-time-nn
-
-# Install
-pip install pandas numpy scikit-learn tensorflow keras-tuner matplotlib seaborn gdown
-
-# Then open the notebook
-jupyter notebook Porter_Neural_Network_Regression.ipynb
-```
-
-Or open directly in **Google Colab** (a GPU runtime is recommended for the
-hyperparameter search).
-
----
-
 ## Limitations & Honesty
 
 - The high R² reflects a **pre-cleaned target**, not production-grade difficulty
